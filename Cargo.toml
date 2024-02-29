@@ -1,0 +1,12 @@
+[package]
+name = "kb"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7.3"
+axum-test = "14.2.2"
+shuttle-axum = "0.36.0"
+shuttle-runtime = "0.36.0"
+tokio = "1.28.2"
+tracing = "0.1.40"
