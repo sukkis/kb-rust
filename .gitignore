@@ -15,3 +15,6 @@ Cargo.lock
 
 # https://docs.shuttle.rs/resources/shuttle-secrets
 Secrets*.toml
+
+# Emacs backup files
+*~
