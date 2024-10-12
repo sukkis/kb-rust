@@ -3,6 +3,14 @@ name = "kb"
 version = "0.1.0"
 edition = "2021"
 
+[lib]
+name = "kbrust"
+path = "src/lib.rs"
+
+[[bin]]
+name = "kb"
+path = "src/bin.rs"
+
 [dependencies]
 axum = "0.7.7"
 axum-test = "16.2.0"
